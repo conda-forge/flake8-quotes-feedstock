@@ -1,6 +1,6 @@
 {% set name = "flake8-quotes" %}
-{% set version = "0.8.1" %}
-{% set sha256 = "668ec2fb0fbf1574a95f49e393364f8a114c7180e5cedc7377c5f4b5257e00fb" %}
+{% set version = "0.9.0" %}
+{% set sha256 = "e853d7d009d6b66fb3a4091bca606e2f458e4bf0f608804e10a6f4ac2ba8ba06" %}
 
 package:
   name: {{ name }}
