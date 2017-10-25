@@ -1,17 +1,18 @@
 {% set name = "flake8-quotes" %}
-{% set version = "0.11.0" %}
-{% set sha256 = "0b8e5ea5407e8308ff237ab814414a1dcd4c309c5c47363b6ad07a35068684e1" %}
+{% set version = "0.12.0" %}
+{% set sha256 = "1469fe554777f81b3a0be0b828663e400b028fde36d86a03c7c8a036c8ecaca4" %}
 
 package:
   name: {{ name }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  fn: {{ name }}-{{ version }}.zip
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.zip
   sha256: {{ sha256 }}
 
 build:
+  noarch: python
   number: 0
   preserve_egg_dir: True
   script: python setup.py install --single-version-externally-managed --record record.txt
