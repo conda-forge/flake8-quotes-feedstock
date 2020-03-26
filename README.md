@@ -120,6 +120,4 @@ Feedstock Maintainers
 
 * [@dopplershift](https://github.com/dopplershift/)
 * [@flamingbear](https://github.com/flamingbear/)
-* [@michael-brandt-cu](https://github.com/michael-brandt-cu/)
 * [@michaeljb](https://github.com/michaeljb/)
-
