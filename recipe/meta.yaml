@@ -23,7 +23,7 @@ requirements:
     - setuptools
   run:
     - python >=3.5
-    - flake8 >=3.0.4,<4.0.0
+    - flake8
 
 test:
   imports:
