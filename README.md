@@ -153,5 +153,6 @@ Feedstock Maintainers
 
 * [@dopplershift](https://github.com/dopplershift/)
 * [@flamingbear](https://github.com/flamingbear/)
+* [@matthiasdiener](https://github.com/matthiasdiener/)
 * [@michaeljb](https://github.com/michaeljb/)
 
