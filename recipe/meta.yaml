@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -23,7 +23,7 @@ requirements:
     - setuptools
   run:
     - python >=3.5
-    - flake8
+    - flake8 <6
 
 test:
   imports:
@@ -35,7 +35,6 @@ about:
   license_family: MIT
   license_file: LICENSE
   summary: Flake8 lint for quotes.
-
   description: |
     Now you don't need to worry about people constantly complaining that you are
     using double-quotes and not single-quotes.
