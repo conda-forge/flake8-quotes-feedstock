@@ -1,6 +1,6 @@
 {% set name = "flake8-quotes" %}
-{% set version = "3.3.1" %}
-{% set sha256 = "633adca6fb8a08131536af0d750b44d6985b9aba46f498871e21588c3e6f525a" %}
+{% set version = "3.3.2" %}
+{% set sha256 = "6e26892b632dacba517bf27219c459a8396dcfac0f5e8204904c5a4ba9b480e1" %}
 
 package:
   name: {{ name }}
@@ -15,7 +15,7 @@ source:
 
 build:
   noarch: python
-  number: 2
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
